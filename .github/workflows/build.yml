@@ -4,8 +4,9 @@ permissions:
     contents: write
 
 on:
-    release:
-        types: main
+    push:
+        branches:
+            - main
 
 jobs:
     cleanup:
